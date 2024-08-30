@@ -1,0 +1,140 @@
+/* App CSS  */
+.container{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+/* Weather Card CSS */
+.main-container{
+  width: 60%;
+  height: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.circle{
+  width: 12px;
+  height: 12px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 0;
+}
+.handle{
+  height: 4px;
+  width: 0px;
+  border: 2px solid white;
+  margin-left: 5px;
+}
+#search-btn{
+  width: 30px;
+  height: 27px;
+  padding: 2px 7px;
+  cursor: pointer;
+}
+.search-box{
+  display: inline-block;
+ padding: 5px;
+ box-shadow: 3px 3px 3px rgb(141, 139, 139),-3px -3px 3px rgb(141, 139, 139);
+ border-radius: 15px;
+}
+.search-box:hover{
+  background-color: rgb(83, 79, 79);
+}
+.curr{
+  display: inline-block;
+  flex-direction: column;
+  width: 47.5%;
+}
+.input{
+  font-size: larger;
+  font-weight: 600;
+  padding: 5px;
+  padding-bottom: 1px;
+  outline: none;
+  border: none;
+  border-right: 2px solid white;
+  background: none;
+margin-right: 5px;
+color: white;
+}
+.pi-btn{
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  box-shadow: 1px 1px 6px white;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 16px;
+  height: 2.6rem;
+}
+.pi-btn:hover{
+  background-color: rgb(92, 92, 207);
+}
+
+.location{
+  display: inline;
+  width: 48%;
+  float: right;
+  text-align: right;
+}
+.updates{
+  width: 60%;
+  margin: 30px auto;
+  display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.updates img{
+  width: 50%;
+  height: 50%;
+  margin: 15px;
+}
+.updates h1{
+  font-weight: bolder;
+  font-size: 900;
+  margin: 5px;
+}
+
+/* Side Bar CSS */
+.side-container{
+  width: 33%;
+  margin-left: 10px;
+  border: 2px solid black;
+  height: 60%;
+  padding: 20px 10px;
+}
+
+.time{
+  font-size: xx-large;
+}
+.info-para{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  color: white;
+}
+.pi-hr{
+  border: 0.5px solid white;
+}
+/* card CSS  */
+.card-container{
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 12.9rem;
+  width: 20rem;
+}
+.card-container:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
